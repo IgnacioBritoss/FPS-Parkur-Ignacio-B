@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4833535563553493218}
   - component: {fileID: 8969673665586534011}
-  - component: {fileID: 1937556299697388032}
+  - component: {fileID: 114403558434156146}
   m_Layer: 0
   m_Name: barrilprefab
   m_TagString: Untagged
@@ -49,13 +49,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &1937556299697388032
-MeshCollider:
+--- !u!114 &114403558434156146
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058220692755166067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec72669263d5fbd4daa7d58fbac52d00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scorePoints: 0
+--- !u!64 &6814701907647091441
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5978389272209513417}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -63,6 +76,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: c0f7e078726af7644ab9ee9e52a7c4cd, type: 3}
+--- !u!114 &5553350656992031855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5978389272209513417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea2608c9dace3c45a4ac40f07f5a81c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scorePoints: 0
 --- !u!1001 &5978389272209415529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -120,6 +146,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0f7e078726af7644ab9ee9e52a7c4cd, type: 3}
+--- !u!1 &5978389272209513417 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c0f7e078726af7644ab9ee9e52a7c4cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5978389272209415529}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5978389272209278953 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c0f7e078726af7644ab9ee9e52a7c4cd,
