@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 3021652527041007282}
   - component: {fileID: 2901678578739952072}
   - component: {fileID: 7735628994251304359}
+  - component: {fileID: 114189070403486364}
   m_Layer: 0
   m_Name: cajaprefab2
   m_TagString: Untagged
@@ -88,6 +89,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 758c6e75ddbe02d44b1d9929925aca25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114189070403486364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5427613570054693115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e52b054a2785a4cab96c99e8b9adf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precio: 0
 --- !u!1001 &4342118028516656214
 PrefabInstance:
   m_ObjectHideFlags: 0
