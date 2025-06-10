@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class mercan : MonoBehaviour
 {
-    public int precio = 10;
+    public int precio = -10;
     public dinero dinero;
 
 
