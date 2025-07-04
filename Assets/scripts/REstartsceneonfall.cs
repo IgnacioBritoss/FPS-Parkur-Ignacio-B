@@ -18,7 +18,7 @@ public class REstartsceneonfall : MonoBehaviour
         if (transform.position.y < deathFall)
         {
             Debug.Log("respawn");
-            SceneManager.LoadScene("fpsparkur");
+            SceneManager.LoadScene("tpfinal");
         }
     }
 }
