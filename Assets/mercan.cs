@@ -8,18 +8,22 @@ public class mercan : MonoBehaviour
     public dinero dinero;
 
 
-     void Start()
+    void Start()
     {
         dinero = FindObjectOfType<dinero>();
 
     }
 
-    private void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("player"))
         {
-            dinero.UpdateMoney(precio);
-            Destroy(gameObject);
+            if (dinero.UpdateMoney(-precio) == true)
+            {
+                Destroy(gameObject);
+            }
+            else { }
         }
+
     }
 }
