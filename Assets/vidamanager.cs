@@ -7,7 +7,7 @@ public class vidamanager : MonoBehaviour
     public float playervida;
 
 
-    public bool UpdateMoney(float amount)
+    public bool UpdateHealth(float amount)
     {
         if (playervida + amount < 0)
         {

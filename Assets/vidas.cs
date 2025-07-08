@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class mercan : MonoBehaviour
+public class vidas : MonoBehaviour
 {
-    public int precio = 10;
-    public dinero dinero;
+    public int danio = 10;
+    public vidamanager vidamanager;
 
 
     void Start()
     {
-        dinero = FindObjectOfType<dinero>();
+        vidamanager = FindObjectOfType<vidamanager>();
 
     }
 
@@ -18,7 +18,7 @@ public class mercan : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (dinero.UpdateMoney(-precio) == true)
+            if (vidamanager.UpdateHealth(-danio) == true)
             {
                 Destroy(gameObject);
             }
