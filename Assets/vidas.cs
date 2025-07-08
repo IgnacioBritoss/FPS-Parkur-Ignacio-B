@@ -16,6 +16,7 @@ public class vidas : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("contact");
         if (collision.gameObject.CompareTag("Player"))
         {
             if (vidamanager.UpdateHealth(-danio) == true)
