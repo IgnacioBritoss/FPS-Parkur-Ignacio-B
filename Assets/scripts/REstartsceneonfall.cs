@@ -15,7 +15,7 @@ public class REstartsceneonfall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < deathFall)
+        if (transform.position.y < deathFall )
         {
             Debug.Log("respawn");
             SceneManager.LoadScene("tpfinal");
